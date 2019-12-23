@@ -4,7 +4,7 @@ provider "azurerm" {
 
 locals {
     location = "australiasoutheast"
-    rg_name = "testing-rg"
+    rg_name = "testing-rg-simple"
 }
 
 # Get a random integer to provide a unique Log Analytics workspace name as they are globally unique
