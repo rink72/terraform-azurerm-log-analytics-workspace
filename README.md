@@ -35,10 +35,10 @@ module "log-analytics" {
 
   solutions = [
       {
-          name = "AutomationAccount",
-          publisher = "Microsoft",
-          product = "OMSGallery/AutomationAccount"
-      }
+      name      = "AzureAutomation",
+      publisher = "Microsoft",
+      product   = "OMSGallery/AzureAutomation"
+    }
   ]
 
   tags = {

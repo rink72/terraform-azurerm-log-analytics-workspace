@@ -7,9 +7,9 @@ locals {
   rg_name  = "testing-rg-with-solution"
   solutions = [
     {
-      name      = "AutomationAccount",
+      name      = "AzureAutomation",
       publisher = "Microsoft",
-      product   = "OMSGallery/AutomationAccount"
+      product   = "OMSGallery/AzureAutomation"
     }
   ]
 }
