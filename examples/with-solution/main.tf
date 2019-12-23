@@ -37,6 +37,8 @@ module "la_workspace" {
   resource_group_name = module.resource-group.name
   location            = local.location
 
+  solutions = local.solutions
+
   la_depends_on = [
     module.resource-group
   ]
