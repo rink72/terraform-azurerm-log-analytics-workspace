@@ -26,7 +26,7 @@ variable "retention_in_days" {
 }
 
 variable "solutions" {
-    type = list(object({ solution_name = string, publisher = string, product = string }))
+    type = list(object({ name = string, publisher = string, product = string }))
     description = "Solutions to install in to the log analytics workspace."
     default = []
 }
